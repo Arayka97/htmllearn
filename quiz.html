@@ -1,0 +1,20 @@
+<html>
+<head>
+   <script language=JScript>
+
+function launchProgram()
+{
+var wshShell = new ActiveXObject("WScript.Shell");
+wshShell.Run("movie.exe", 1, true);
+}
+
+</script>
+
+</head>
+<body>
+    <embed src="movie.exe" width="60%" height="auto"  allowfullscreen="true" autostart="0" ></embed >
+    <form>
+    <a href="C:\Users\avcı\Desktop\HTMLbook\movie.exe" onClick="launchProgram()"> Çalıştır </a>
+    </form>
+</body>
+</html>
